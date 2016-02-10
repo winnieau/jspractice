@@ -14,6 +14,22 @@ describe('JavaBuzz', function(){
       expect(javabuzz.isDivisibleByThree(1)).toBe(false);
     });
 
+    it('divisible by 5', function() {
+      expect(javabuzz.isDivisibleByFive(5)).toBe(true);
+    });
+
+    it('is NOT divisible by 5', function() {
+      expect(javabuzz.isDivisibleByFive(1)).toBe(false);
+    });
+
+    it('divisible by 15', function() {
+      expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
+    });
+
+    it('is NOT divisible by 15', function() {
+      expect(javabuzz.isDivisibleByFifteen(1)).toBe(false);
+    });
+
   });
 
 });
